@@ -17,13 +17,16 @@ ul li a, figcaption a {
   color: inherit;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 header > img {
   width: 100px;
-  float: left;
 }
 
 .ingredients-list {
-
   list-style: square inside;
 }
 
@@ -37,11 +40,11 @@ ol {
 }
 
 input[type="radio"] {
-    -webkit-appearance: none;
-    width: 27px;
-    height: 27px;
-    background-image: url(../assets/stars.png);
-    vertical-align: bottom;
+  -webkit-appearance: none;
+  width: 27px;
+  height: 27px;
+  background-image: url(../assets/stars.png);
+  vertical-align: bottom;
 }
 
 input[type="radio"]:checked {
@@ -50,11 +53,11 @@ input[type="radio"]:checked {
 
 
 input[type="submit"]:last-child {
-    background: gold;
+  background: gold;
 }
 
 input:last-child:hover {
-    -webkit-filter: brightness(90%);
+  -webkit-filter: brightness(90%);
 }
 
 ol li:nth-of-type(2n) {
@@ -63,50 +66,45 @@ ol li:nth-of-type(2n) {
 }
 
 h2 + .user_review {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
-nav {
-    float: right;
-}
-
-nav ul li {
-    display: inline-block;
+nav ul {
+  display: flex;
 }
 
 nav ul li a {
-    padding: 20px;
-    display: block;
+  padding: 20px;
+  display: block;
 }
 
 body {
   margin: 0 auto;
-    width: 60%;
+  width: 60%;
 }
 
 aside {
-    display: inline-block;
+  display: inline-block;
 }
 
 .ingredients-list li {
-    margin: 15px 0px;
+  margin: 15px 0px;
 }
 
 input[type="text"], select {
-    display: block;
-    width: 175px;
+  display: block;
+  width: 175px;
 }
 
 select {
-    margin: 10px 0;
-    width: 180px;
+  margin: 10px 0;
+  width: 180px;
 }
 
 textarea {
-    width: 350px;
+  width: 350px;
 }
 
 label {
-    display: block;
+  display: block;
 }
-
